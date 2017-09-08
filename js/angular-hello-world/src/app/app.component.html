@@ -1,0 +1,95 @@
+<div class="main">
+	<div class="left-col">
+		<div class="hz-tipo-menu" onclick="topMenu()"></div>
+		<div id="leftTopMenu" class="left-col-top-menu">
+			<div id="topMenuOnLineRadioFlag" class="left-menu-online-radio" onclick="topMenuOnLineRadio()">
+				<div class="left-menu-online-radio-border-off">
+					<div class="left-menu-online-radio-border"></div>
+				</div>
+				<div id="left-menu-online-radio-icon" class="left-menu-online-radio-icon"></div>
+				<div id="left-menu-online-radio-text" class="left-menu-online-radio-text">Онлайн радио</div>
+			</div>
+			<div id="topMenuMusicFlag" class="left-menu-music" onclick="topMenuMusic()">
+				<div class="left-menu-music-border-off">
+					<div class="left-menu-music-border"></div>
+				</div>
+				<div id="left-menu-music-icon" class="left-menu-music-icon"></div>
+				<div id="left-menu-music-text" class="left-menu-music-text">Музыка</div>
+			</div>
+			<div id="topMenuPlaylistFlag" class="left-menu-playlist" onclick="topMenuPlaylist()">
+				<div class="left-menu-playlist-border-off">
+					<div class="left-menu-playlist-border"></div>
+				</div>
+				<div id="left-menu-playlist-icon" class="left-menu-playlist-icon"></div>
+				<div id="left-menu-playlist-text" class="left-menu-playlist-text">Плейлисты</div>
+			</div>
+		</div>
+		<div class="left-col-footer">
+			<div class="left-col-footer-header">контакты</div>
+			<div class="left-col-footer-location"><span>Варшава:</span> <span class="phone">+48 660 362 868</span></div>
+			<div class="left-col-footer-location location-tvo"><span>Москва:</span> <span class="phone">+7(499) 346 42 50</span></div>
+			<div class="left-col-footer-location location-three"><span>Киев:</span> <span class="phone">+38(044) 225 81 20</span></div>
+			<div class="left-col-footer-url">
+				<a href="https://expertmusic.net/">https://expertmusic.net/</a>
+			</div>
+			<div class="left-col-footer-soc">
+				<div class="soc-twitter"></div>
+				<div class="soc-facebook"></div>
+				<div class="soc-vk"></div>
+				<div class="soc-in"></div>
+				<div class="soc-youtube"></div>
+				<div class="soc-gplus"></div>
+			</div>
+		</div>
+	</div>
+	<div class="right-col">
+		<div class="right-col-header">
+			<div class="right-col-header-logo">
+				<div class="logo-icon"></div>
+			</div>
+			<div class="right-col-header-profile">
+				<div class="profile-foto"></div>
+				<div class="profile-text">
+					<div class="profile-text-fio">{{title}}</div>
+					<div class="profile-text-etc">Доступ: тестовый, до 16.06.2017</div>
+				</div>
+				<div class="profile-icon"></div>
+			</div>
+		</div>
+		<div><app-user-list></app-user-list></div>
+		<div class="right-col-footer">
+			<div class="right-col-footer-timing">
+				<div class="timing-current-time">0:54</div>
+				<div class="timing-total-time">3:43</div>
+			</div>
+			<div class="right-col-footer-player-icon">
+				<div class="player-icon-shuffle"></div>
+				<div class="player-icon-prev"></div>
+				<div class="player-icon-start-stop"></div>
+				<div class="player-icon-next"></div>
+				<div class="player-icon-infin"></div>
+			</div>
+			<div class="right-col-footer-player-text">
+				<div class="player-text-fio">Болдырев александр александрович</div>
+				<div class="player-text-sound-name">arizona</div>
+				<div class="player-text-playlist-name">Название плейлиста</div>
+			</div>
+			<div class="right-col-footer-player-menu">
+				<div class="player-menu-playlist"></div>
+				<div class="player-menu-like"></div>
+				<div class="player-menu-valume"></div>
+				<div class="player-menu-download"></div>
+				<div class="player-menu-plus"></div>
+				<div class="player-menu-knopka"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<h1>
+  {{title}}
+  
+  <app-hello-world></app-hello-world>
+  
+  <app-user-item></app-user-item>
+</h1>
